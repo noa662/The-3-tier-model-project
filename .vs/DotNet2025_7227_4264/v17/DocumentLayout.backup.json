@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8615F851-4224-4990-A54D-F1A833C2EC49}|BlTest\\BlTest.csproj|c:\\users\\user\\desktop\\dotnet2025_7227_4264\\bltest\\program (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8615F851-4224-4990-A54D-F1A833C2EC49}|BlTest\\BlTest.csproj|solutionrelative:bltest\\program (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425B86CA-10E1-4A49-B12C-A8A6B9320166}|BL\\BL.csproj|c:\\users\\user\\desktop\\dotnet2025_7227_4264\\bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425B86CA-10E1-4A49-B12C-A8A6B9320166}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425B86CA-10E1-4A49-B12C-A8A6B9320166}|BL\\BL.csproj|c:\\users\\user\\desktop\\dotnet2025_7227_4264\\bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425B86CA-10E1-4A49-B12C-A8A6B9320166}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EF2CEAE-5E5F-4531-9409-A5940D6C29E8}|DalList\\DalList.csproj|c:\\users\\user\\desktop\\dotnet2025_7227_4264\\dallist\\productimplementation (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EF2CEAE-5E5F-4531-9409-A5940D6C29E8}|DalList\\DalList.csproj|solutionrelative:dallist\\productimplementation (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BL\\BlImplementation\\OrderImplementation.cs",
+              "RelativeDocumentMoniker": "BL\\BlImplementation\\OrderImplementation.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BL\\BlImplementation\\OrderImplementation.cs",
+              "RelativeToolTip": "BL\\BlImplementation\\OrderImplementation.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAA6wEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:19:27.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BL\\BlImplementation\\ProductImplementation.cs",
+              "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BL\\BlImplementation\\ProductImplementation.cs",
+              "RelativeToolTip": "BL\\BlImplementation\\ProductImplementation.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:12:28.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductImplementation (1).cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\DalList\\ProductImplementation (1).cs",
+              "RelativeDocumentMoniker": "DalList\\ProductImplementation (1).cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\DalList\\ProductImplementation (1).cs",
+              "RelativeToolTip": "DalList\\ProductImplementation (1).cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwEgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:09:37.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program (1).cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BlTest\\Program (1).cs",
+              "RelativeDocumentMoniker": "BlTest\\Program (1).cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BlTest\\Program (1).cs*",
+              "RelativeToolTip": "BlTest\\Program (1).cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T17:36:41.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

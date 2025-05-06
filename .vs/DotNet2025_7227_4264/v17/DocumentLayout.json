@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81F7780A-F299-4CA6-90AC-1BA4B3E6F169}|DalXml\\DalXml.csproj|m:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\dalxml\\dalxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F7780A-F299-4CA6-90AC-1BA4B3E6F169}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\dalxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E0307A-E581-4258-A916-44D25F9EAC16}|xml{E5E0307A-E581-4258-A916-44D25F9EAC16}|M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\xml\\products.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E5E0307A-E581-4258-A916-44D25F9EAC16}|xml{E5E0307A-E581-4258-A916-44D25F9EAC16}|solutionrelative:xml\\products.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E0307A-E581-4258-A916-44D25F9EAC16}|xml{E5E0307A-E581-4258-A916-44D25F9EAC16}|M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\xml\\data-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E5E0307A-E581-4258-A916-44D25F9EAC16}|xml{E5E0307A-E581-4258-A916-44D25F9EAC16}|solutionrelative:xml\\data-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F7780A-F299-4CA6-90AC-1BA4B3E6F169}|DalXml\\DalXml.csproj|m:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F7780A-F299-4CA6-90AC-1BA4B3E6F169}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81F7780A-F299-4CA6-90AC-1BA4B3E6F169}|DalXml\\DalXml.csproj|m:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81F7780A-F299-4CA6-90AC-1BA4B3E6F169}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D970DB-6200-4179-A3C0-D425E47199BC}|DalTest\\DalTest.csproj|m:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D970DB-6200-4179-A3C0-D425E47199BC}|DalTest\\DalTest.csproj|solutionrelative:daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "data-config.xml",
+              "DocumentMoniker": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\xml\\data-config.xml",
+              "RelativeDocumentMoniker": "xml\\data-config.xml",
+              "ToolTip": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\xml\\data-config.xml",
+              "RelativeToolTip": "xml\\data-config.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-26T13:33:57.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Config.cs",
+              "DocumentMoniker": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalXml\\Config.cs",
+              "RelativeDocumentMoniker": "DalXml\\Config.cs",
+              "ToolTip": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalXml\\Config.cs",
+              "RelativeToolTip": "DalXml\\Config.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:33:17.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "products.xml",
+              "DocumentMoniker": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\xml\\products.xml",
+              "RelativeDocumentMoniker": "xml\\products.xml",
+              "ToolTip": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\xml\\products.xml",
+              "RelativeToolTip": "xml\\products.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-03-26T13:29:58.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Initialization.cs",
+              "DocumentMoniker": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalTest\\Initialization.cs",
+              "RelativeDocumentMoniker": "DalTest\\Initialization.cs",
+              "ToolTip": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalTest\\Initialization.cs",
+              "RelativeToolTip": "DalTest\\Initialization.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwCQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:19:16.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DalXml.cs",
+              "DocumentMoniker": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalXml\\DalXml.cs",
+              "RelativeDocumentMoniker": "DalXml\\DalXml.cs",
+              "ToolTip": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalXml\\DalXml.cs",
+              "RelativeToolTip": "DalXml\\DalXml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:59:57.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "productImplementation.cs",
+              "DocumentMoniker": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalXml\\productImplementation.cs",
+              "RelativeDocumentMoniker": "DalXml\\productImplementation.cs",
+              "ToolTip": "M:\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\DalXml\\productImplementation.cs",
+              "RelativeToolTip": "DalXml\\productImplementation.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:24:39.504Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

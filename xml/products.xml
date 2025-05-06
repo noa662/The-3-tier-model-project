@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct>
+  <ArrayOfProduct>
+    <Product>
+      <Id>235</Id>
+      <Name>qwd</Name>
+      <Price>1</Price>
+      <Amount>234</Amount>
+      <Category>LuxuryBeds</Category>
+    </Product>
+    <Product>
+      <Id>260</Id>
+      <Name>qghhhgwd</Name>
+      <Price>1</Price>
+      <Amount>234</Amount>
+      <Category>LuxuryBeds</Category>
+    </Product>
+	  <Product>
+		  <Id>270</Id>
+		  <Name>qghhhgwd</Name>
+		  <Price>1</Price>
+		  <Amount>234</Amount>
+		  <Category>LuxuryBeds</Category>
+	  </Product>
+	  <Product>
+		  <Id>280</Id>
+		  <Name>qghhhgwd</Name>
+		  <Price>1</Price>
+		  <Amount>234</Amount>
+		  <Category>LuxuryBeds</Category>
+	  </Product>
+	  <Product>
+		  <Id>290</Id>
+		  <Name>qghhhgwd</Name>
+		  <Price>1</Price>
+		  <Amount>234</Amount>
+		  <Category>LuxuryBeds</Category>
+	  </Product>
+  </ArrayOfProduct>
+</ArrayOfProduct>

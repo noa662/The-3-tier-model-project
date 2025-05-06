@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BL/1.0.0": {
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "DalList": "1.0.0"
+        },
+        "runtime": {
+          "BL.dll": {}
+        }
+      },
+      "DalFacade/1.0.0": {
+        "runtime": {
+          "DalFacade.dll": {}
+        }
+      },
+      "DalList/1.0.0": {
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "Tools": "1.0.0"
+        },
+        "runtime": {
+          "DalList.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "runtime": {
+          "Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalFacade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

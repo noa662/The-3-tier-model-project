@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DalFacade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DalFacade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalFacade.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DalFacade/1.0.0": {
+      "type": "project",
+      "path": "../DalFacade/DalFacade.csproj",
+      "msbuildProject": "../DalFacade/DalFacade.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DalFacade >= 1.0.0",
+      "Tools >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\noakr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "M:\\DotNet2025_7227_4264\\DalList\\DalList.csproj",
+      "projectName": "DalList",
+      "projectPath": "M:\\DotNet2025_7227_4264\\DalList\\DalList.csproj",
+      "packagesPath": "C:\\Users\\noakr\\.nuget\\packages\\",
+      "outputPath": "M:\\DotNet2025_7227_4264\\DalList\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\noakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "M:\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "M:\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj"
+            },
+            "M:\\DotNet2025_7227_4264\\Tools\\Tools.csproj": {
+              "projectPath": "M:\\DotNet2025_7227_4264\\Tools\\Tools.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

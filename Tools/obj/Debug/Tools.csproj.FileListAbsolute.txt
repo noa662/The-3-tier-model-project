@@ -1,0 +1,80 @@
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\bin\Tools.deps.json
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\bin\Tools.dll
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\bin\Tools.pdb
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\Tools.dll
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\refint\Tools.dll
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\Tools.pdb
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\DotNet2025_7227_4264\Tools\obj\Debug\ref\Tools.dll
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\bin\Tools.deps.json
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\bin\Tools.dll
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\bin\Tools.pdb
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\Tools.dll
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\refint\Tools.dll
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\Tools.pdb
+C:\Users\user\Desktop\לימודים\יד\C# מתקדם\פרויקט\DotNet2025_7227_4264\Tools\obj\Debug\ref\Tools.dll
+C:\Users\USER\Desktop\DotNet2025_7227_4264\bin\Tools.deps.json
+C:\Users\USER\Desktop\DotNet2025_7227_4264\bin\Tools.dll
+C:\Users\USER\Desktop\DotNet2025_7227_4264\bin\Tools.pdb
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\Tools.dll
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\refint\Tools.dll
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\Tools.pdb
+C:\Users\USER\Desktop\DotNet2025_7227_4264\Tools\obj\Debug\ref\Tools.dll
+C:\Users\user\Downloads\DotNet2025_7227_4264\bin\Tools.deps.json
+C:\Users\user\Downloads\DotNet2025_7227_4264\bin\Tools.dll
+C:\Users\user\Downloads\DotNet2025_7227_4264\bin\Tools.pdb
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfo.cs
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\Tools.dll
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\refint\Tools.dll
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\Tools.pdb
+C:\Users\user\Downloads\DotNet2025_7227_4264\Tools\obj\Debug\ref\Tools.dll
+M:\מעודכן\bin\Tools.deps.json
+M:\מעודכן\bin\Tools.dll
+M:\מעודכן\bin\Tools.pdb
+M:\מעודכן\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+M:\מעודכן\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+M:\מעודכן\Tools\obj\Debug\Tools.AssemblyInfo.cs
+M:\מעודכן\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+M:\מעודכן\Tools\obj\Debug\Tools.dll
+M:\מעודכן\Tools\obj\Debug\refint\Tools.dll
+M:\מעודכן\Tools\obj\Debug\Tools.pdb
+M:\מעודכן\Tools\obj\Debug\ref\Tools.dll
+M:\מעודכן\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+M:\DotNet2025_7227_4264\bin\Tools.deps.json
+M:\DotNet2025_7227_4264\bin\Tools.dll
+M:\DotNet2025_7227_4264\bin\Tools.pdb
+M:\DotNet2025_7227_4264\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+M:\DotNet2025_7227_4264\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+M:\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+M:\DotNet2025_7227_4264\Tools\obj\Debug\Tools.AssemblyInfo.cs
+M:\DotNet2025_7227_4264\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+M:\DotNet2025_7227_4264\Tools\obj\Debug\Tools.dll
+M:\DotNet2025_7227_4264\Tools\obj\Debug\refint\Tools.dll
+M:\DotNet2025_7227_4264\Tools\obj\Debug\Tools.pdb
+M:\DotNet2025_7227_4264\Tools\obj\Debug\ref\Tools.dll
+M:\C-net_project-master\C-net_project-master\bin\Tools.deps.json
+M:\C-net_project-master\C-net_project-master\bin\Tools.dll
+M:\C-net_project-master\C-net_project-master\bin\Tools.pdb
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\Tools.AssemblyInfo.cs
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\Tools.dll
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\refint\Tools.dll
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\Tools.pdb
+M:\C-net_project-master\C-net_project-master\Tools\obj\Debug\ref\Tools.dll

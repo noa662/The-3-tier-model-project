@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "DalList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DalFacade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DalFacade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalFacade.dll": {}
+        }
+      },
+      "DalList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "Tools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalList.dll": {}
+        }
+      },
+      "DalTest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "DalList": "1.0.0",
+          "Tools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalTest.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    },
+    "DalFacade/1.0.0": {
+      "type": "project",
+      "path": "../DalFacade/DalFacade.csproj",
+      "msbuildProject": "../DalFacade/DalFacade.csproj"
+    },
+    "DalList/1.0.0": {
+      "type": "project",
+      "path": "../DalList/DalList.csproj",
+      "msbuildProject": "../DalList/DalList.csproj"
+    },
+    "DalTest/1.0.0": {
+      "type": "project",
+      "path": "../DalTest/DalTest.csproj",
+      "msbuildProject": "../DalTest/DalTest.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "BL >= 1.0.0",
+      "DalTest >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj",
+      "projectName": "BlTest",
+      "projectPath": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BlTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\BL\\BL.csproj"
+            },
+            "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

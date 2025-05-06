@@ -1,0 +1,8 @@
+26/03/2025 12:55:42	DalList.Read	start read sale
+26/03/2025 12:55:42	DalList.Read	error read sale
+26/03/2025 13:57:02	DalList.Create	start create product
+26/03/2025 13:57:02	DalList.Create	end create product
+26/03/2025 13:57:27	DalList.Create	start create product
+26/03/2025 13:57:27	DalList.Create	end create product
+26/03/2025 15:36:11	DalTest.newCategory	invalid selection
+26/03/2025 15:36:13	DalTest.newCategory	invalid selection

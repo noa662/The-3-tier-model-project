@@ -1,0 +1,181 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "DalList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DalFacade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DalFacade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalFacade.dll": {}
+        }
+      },
+      "DalList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DalFacade": "1.0.0",
+          "Tools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalList.dll": {}
+        }
+      },
+      "DalXml/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DalFacade": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalXml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalXml.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    },
+    "DalFacade/1.0.0": {
+      "type": "project",
+      "path": "../DalFacade/DalFacade.csproj",
+      "msbuildProject": "../DalFacade/DalFacade.csproj"
+    },
+    "DalList/1.0.0": {
+      "type": "project",
+      "path": "../DalList/DalList.csproj",
+      "msbuildProject": "../DalList/DalList.csproj"
+    },
+    "DalXml/1.0.0": {
+      "type": "project",
+      "path": "../DalXml/DalXml.csproj",
+      "msbuildProject": "../DalXml/DalXml.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Tools/Tools.csproj",
+      "msbuildProject": "../Tools/Tools.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BL >= 1.0.0",
+      "DalList >= 1.0.0",
+      "DalXml >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sarakra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\UI\\UI.csproj",
+      "projectName": "UI",
+      "projectPath": "M:\\C-net_project-master\\C-net_project-master\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
+      "outputPath": "M:\\C-net_project-master\\C-net_project-master\\UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj": {
+              "projectPath": "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj"
+            },
+            "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj": {
+              "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj"
+            },
+            "M:\\C-net_project-master\\C-net_project-master\\DalXml\\DalXml.csproj": {
+              "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalXml\\DalXml.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

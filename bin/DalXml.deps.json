@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DalXml/1.0.0": {
+        "dependencies": {
+          "DalFacade": "1.0.0"
+        },
+        "runtime": {
+          "DalXml.dll": {}
+        }
+      },
+      "DalFacade/1.0.0": {
+        "runtime": {
+          "DalFacade.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DalXml/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalFacade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

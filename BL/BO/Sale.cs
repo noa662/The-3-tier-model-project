@@ -1,5 +1,4 @@
 ﻿namespace BO;
-
 public class Sale
 {
     public int id { get; init; }
@@ -18,7 +17,15 @@ public class Sale
         dateStartSale = null;
         dateEndSale = null;
     }
-
+    public Sale( int? productId, int amountForGetSale, double sumPriceInSale, bool? onlyClub, DateTime? dateStartSale, DateTime? dateEndSale)
+    {
+        this.productId = productId;
+        this.amountForGetSale = amountForGetSale;
+        this.sumPriceInSale = sumPriceInSale;
+        this.onlyClub = onlyClub;
+        this.dateEndSale = dateEndSale;
+        this.dateStartSale = dateStartSale;
+    }
     public Sale(int id, int? productId, int amountForGetSale, double sumPriceInSale, bool? onlyClub, DateTime? dateStartSale, DateTime? dateEndSale)
     {
         this.id = id;

@@ -1,3 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ArrayOfClient>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Client>
+    <id>258741</id>
+    <name>נועה קרביץ</name>
+    <adress>רשב'י 51</adress>
+    <phone>0556789662</phone>
+  </Client>
+  <Client>
+    <id>123547</id>
+    <name>יעל</name>
+    <adress>רשב'י 4</adress>
+    <phone>0556730863</phone>
+  </Client>
+  <Client>
+    <id>328976</id>
+    <name>מירב כהן</name>
+    <adress>רבי טרפון</adress>
+    <phone>055678963</phone>
+  </Client>
+  <Client>
+    <id>155988</id>
+    <name>מיכל רווח</name>
+    <adress>נעמן 33 תל אביב</adress>
+    <phone>06879142</phone>
+  </Client>
+  <Client>
+    <id>548796</id>
+    <name>רויטל</name>
+    <adress>רבי עקיבא 55 בני ברק</adress>
+    <phone>21351525</phone>
+  </Client>
 </ArrayOfClient>

@@ -2,7 +2,7 @@
 using BO;
 namespace BlImplementation;
 
-public class ProductImplementation : IProduct
+internal class ProductImplementation : IProduct
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
     public int Create(BO.Product p)
@@ -13,18 +13,18 @@ public class ProductImplementation : IProduct
         }
         catch
         {
-            throw new Exception("");
+            throw new BLAlreadyExistsException("this item already exist");
         }
     }
     public BO.Product Read(int id)
     {
         try
         {
-            return _dal.Product.Read(id).Convert();
+            return _dal.Product.Read(id)?.Convert();
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("this item is not exist");
         }
     }
     public BO.Product? Read(Func<BO.Product, bool> filter)
@@ -35,7 +35,7 @@ public class ProductImplementation : IProduct
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exists");
         }
     }
     public List<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null)
@@ -48,7 +48,7 @@ public class ProductImplementation : IProduct
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exists");
         }
     }
     public void Update(BO.Product item)
@@ -57,9 +57,9 @@ public class ProductImplementation : IProduct
         {
             _dal.Product.Update(item.Convert());
         }
-        catch
+        catch (Exception ex)
         {
-            throw new Exception("");
+            throw new BLAccessException("error in update item");
         }
     }
     public void Delete(int id)
@@ -70,7 +70,7 @@ public class ProductImplementation : IProduct
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("id is not exist");
         }
     }
     public List<BO.Product> getListSales(int id, bool favorite)
@@ -84,7 +84,7 @@ public class ProductImplementation : IProduct
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exists");
         }
     }
 }

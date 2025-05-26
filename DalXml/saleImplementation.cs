@@ -1,10 +1,7 @@
 ﻿using DalApi;
 using DO;
 using System.Xml.Serialization;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-
+using System.Xml.Linq;
 namespace Dal;
 
 internal class saleImplementation : ISale
@@ -15,16 +12,20 @@ internal class saleImplementation : ISale
 
     public int Create(Sale item)
     {
-        using (StreamReader sr = new StreamReader(filePath))
+        if (item.onlyClub==true && item.productId > 0 && item.amountForGetSale > 0 && item.dateEndSale!=null && item.dateStartSale!=null)
         {
-            list = serializer.Deserialize(sr) as List<Sale>;
-            list.Add(item);
+            using (StreamReader sr = new StreamReader(filePath))
+            {
+                list = serializer.Deserialize(sr) as List<Sale>;
+                list.Add(item);
+            }
+            using (StreamWriter sw = new StreamWriter(filePath))
+            {
+                serializer.Serialize(sw, list);
+            }
+            return item.id;
         }
-        using (StreamWriter sw = new StreamWriter(filePath))
-        {
-            serializer.Serialize(sw, list);
-        }
-        return item.id;
+        return 0;
     }
 
     public void Delete(int id)
@@ -71,7 +72,28 @@ internal class saleImplementation : ISale
 
     public void Update(Sale item)
     {
-        Delete(item.id);
-        Create(item);
+        XElement saleXml = XElement.Load(filePath);
+        // Locate the Sale element that matches the provided item's id
+        var element = saleXml.Descendants("Sale")
+                             .FirstOrDefault(sale => (int)sale.Element("id") == item.id);
+
+        if (element == null)
+            throw new KeyNotFoundException($"Sale with ID {item.id} not found.");
+
+        // Update the properties of the found Sale element
+        element.Element("productId").SetValue(item.productId);
+        element.Element("amountForGetSale").SetValue(item.amountForGetSale);
+        element.Element("sumPriceInSale").SetValue(item.sumPriceInSale);
+        element.Element("onlyClub").SetValue(item.onlyClub);
+        element.Element("dateStartSale").SetValue(item.dateStartSale);
+        element.Element("dateEndSale").SetValue(item.dateEndSale);
+
+        // Save the changes back to the XML file
+        saleXml.Save(filePath);
     }
+
+
+
+
+
 }

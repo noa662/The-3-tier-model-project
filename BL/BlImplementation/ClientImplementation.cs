@@ -13,18 +13,18 @@ internal class ClientImplementation : IClient
         }
         catch
         {
-            throw new Exception("");
+            throw new BLAlreadyExistsException("this item already exist");
         }
     }
     public BO.Client Read(int id)
     {
         try
         {
-            return _dal.Client.Read(id).Convert();
+            return _dal.Client.Read(id)?.Convert();
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("id is not exist");
         }
     }
     public BO.Client? Read(Func<BO.Client, bool> filter)
@@ -35,7 +35,7 @@ internal class ClientImplementation : IClient
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exist");
         }
     }
 
@@ -49,7 +49,7 @@ internal class ClientImplementation : IClient
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exist");
         }
     }
     public void Update(BO.Client item)
@@ -60,7 +60,7 @@ internal class ClientImplementation : IClient
         }
         catch
         {
-            throw new Exception("");
+            throw new BLAccessException("error in update item");
         }
     }
     public void Delete(int id)
@@ -71,7 +71,7 @@ internal class ClientImplementation : IClient
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("id is not exist");
         }
     }
     public bool IsExist(BO.Client client)
@@ -84,7 +84,7 @@ internal class ClientImplementation : IClient
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("item is not exist");
         }
     }
 }

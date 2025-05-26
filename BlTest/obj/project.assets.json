@@ -120,25 +120,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sarakra\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\BlTest\\BlTest.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj",
       "projectName": "BlTest",
-      "projectPath": "M:\\C-net_project-master\\C-net_project-master\\BlTest\\BlTest.csproj",
-      "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-      "outputPath": "M:\\C-net_project-master\\C-net_project-master\\BlTest\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -154,11 +152,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj": {
-              "projectPath": "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj"
+            "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\BL.csproj"
             },
-            "M:\\C-net_project-master\\C-net_project-master\\DalTest\\DalTest.csproj": {
-              "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalTest\\DalTest.csproj"
+            "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj"
             }
           }
         }
@@ -188,7 +186,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

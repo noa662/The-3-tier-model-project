@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj": {}
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {}
   },
   "projects": {
-    "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

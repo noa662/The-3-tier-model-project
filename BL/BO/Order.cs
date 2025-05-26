@@ -1,5 +1,4 @@
 ﻿namespace BO;
-
 public class Order
 {
     public bool? favorite { get; set; }

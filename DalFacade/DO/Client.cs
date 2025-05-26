@@ -1,6 +1,4 @@
-﻿using DalApi;
-
-namespace DO;
+﻿namespace DO;
 
 public record Client(int id, string? name = null, string? adress = null, string? phone = null) 
 {

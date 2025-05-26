@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\sarakra\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\sarakra\\.nuget\\packages",
+      "C:\\Users\\noakr\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\noakr\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],

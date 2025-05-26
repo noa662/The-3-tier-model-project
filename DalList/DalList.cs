@@ -1,7 +1,6 @@
 ﻿using DalApi;
 using DalList;
 namespace Dal;
-
 public sealed class DalList : IDal
 {
     public static DalList Instance { get; } = new DalList();

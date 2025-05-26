@@ -1,40 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct>
-  <ArrayOfProduct>
-    <Product>
-      <Id>235</Id>
-      <Name>qwd</Name>
-      <Price>1</Price>
-      <Amount>234</Amount>
-      <Category>LuxuryBeds</Category>
-    </Product>
-    <Product>
-      <Id>260</Id>
-      <Name>qghhhgwd</Name>
-      <Price>1</Price>
-      <Amount>234</Amount>
-      <Category>LuxuryBeds</Category>
-    </Product>
-	  <Product>
-		  <Id>270</Id>
-		  <Name>qghhhgwd</Name>
-		  <Price>1</Price>
-		  <Amount>234</Amount>
-		  <Category>LuxuryBeds</Category>
-	  </Product>
-	  <Product>
-		  <Id>280</Id>
-		  <Name>qghhhgwd</Name>
-		  <Price>1</Price>
-		  <Amount>234</Amount>
-		  <Category>LuxuryBeds</Category>
-	  </Product>
-	  <Product>
-		  <Id>290</Id>
-		  <Name>qghhhgwd</Name>
-		  <Price>1</Price>
-		  <Amount>234</Amount>
-		  <Category>LuxuryBeds</Category>
-	  </Product>
-  </ArrayOfProduct>
+  <!-- Accessories -->
+  <Product>
+    <Id>301</Id>
+    <Name>קולר אדום</Name>
+    <Price>80</Price>
+    <Amount>112</Amount>
+    <Category>Clothes</Category>
+  </Product>
+  <Product>
+    <Id>302</Id>20
+    <Name>רצועת הליכה נמתחת</Name><Price>35</Price><Amount>0</Amount><Category>Accessories</Category></Product>
+  <Product>
+    <Id>303</Id>
+    <Name>צעצוע לעיסה בצורת עצם</Name>
+    <Price>12.5</Price>
+    <Amount>750</Amount>
+    <Category>Accessories</Category>
+  </Product>
+  <!-- CareProducts -->
+  <Product>
+    <Id>304</Id>
+    <Name>שמפו לכלבים עם אלוורה</Name>
+    <Price>18.9</Price>
+    <Amount>380</Amount>
+    <Category>CareProducts</Category>
+  </Product>
+  <Product>
+    <Id>305</Id>
+    <Name>מברשת פרווה</Name>
+    <Price>22</Price>
+    <Amount>150</Amount>
+    <Category>CareProducts</Category>
+  </Product>
+  <Product>
+    <Id>306</Id>
+    <Name>תחליף ניקוי אוזניים</Name>
+    <Price>15.75</Price>
+    <Amount>466</Amount>
+    <Category>CareProducts</Category>
+  </Product>
+  <!-- Food -->
+  <Product>
+    <Id>308</Id>
+    <Name>אוכל רטוב לחתולים - טונה</Name>
+    <Price>7.2</Price>
+    <Amount>281</Amount>
+    <Category>Food</Category>
+  </Product>
+  <!-- Clothes -->
+  <Product>
+    <Id>310</Id>
+    <Name>מעיל חורף לכלב בינוני</Name>
+    <Price>45</Price>
+    <Amount>100</Amount>
+    <Category>Clothes</Category>
+  </Product>
+  <Product>
+    <Id>311</Id>
+    <Name>תחפושת לדובון</Name>
+    <Price>60</Price>
+    <Amount>190</Amount>
+    <Category>Clothes</Category>
+  </Product>
+  <Product>
+    <Id>312</Id>
+    <Name>כובע צמר קטן</Name>
+    <Price>20</Price>
+    <Amount>59</Amount>
+    <Category>Clothes</Category>
+  </Product>
+  <!-- LuxuryBeds -->
+  <Product>
+    <Id>313</Id>
+    <Name>מיטת קטיפה מפוארת</Name>
+    <Price>120</Price>
+    <Amount>320</Amount>
+    <Category>LuxuryBeds</Category>
+  </Product>
+  <Product>
+    <Id>314</Id>
+    <Name>ספה ממוזגת לחתולים</Name>
+    <Price>180</Price>
+    <Amount>148</Amount>
+    <Category>LuxuryBeds</Category>
+  </Product>
+  <Product>
+    <Id>315</Id>
+    <Name>כרית שינה אורתופדית</Name>
+    <Price>100</Price>
+    <Amount>670</Amount>
+    <Category>LuxuryBeds</Category>
+  </Product>
+  <ArrayOfProduct />
 </ArrayOfProduct>

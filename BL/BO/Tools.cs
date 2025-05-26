@@ -1,5 +1,4 @@
-﻿using DO;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Text;
 namespace BO;
 
@@ -23,7 +22,7 @@ internal static class Tools
     }
     public static BO.Product Convert(this DO.Product c)
     {
-        return new BO.Product( c.name, c.price, c.amount, (BO.Category)(c.category));
+        return new BO.Product(c.id, c.name, c.price, c.amount, (BO.Category)(c.category));
     }
     public static BO.Sale Convert(this DO.Sale c)
     {

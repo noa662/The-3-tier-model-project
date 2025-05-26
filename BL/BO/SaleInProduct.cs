@@ -22,4 +22,8 @@ public class SaleInProduct
         this.price = price;
         this.allClients = allClients;
     }
+    public string ToString()
+    {
+        return "saleId:  " + SaleId + " amount: " + count + " price: " + price;
+    }
 }

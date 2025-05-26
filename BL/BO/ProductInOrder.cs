@@ -1,5 +1,4 @@
 ﻿namespace BO;
-
 public class ProductInOrder
 {
     public int productId { get; init; }

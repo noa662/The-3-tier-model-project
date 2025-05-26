@@ -2,7 +2,7 @@
 using BO;
 namespace BlImplementation;
 
-internal class SaleImplementation : ISale
+public class SaleImplementation : ISale
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
     public int Create(BO.Sale s)
@@ -13,18 +13,18 @@ internal class SaleImplementation : ISale
         }
         catch
         {
-            throw new Exception("");
+            throw new BLAlreadyExistsException("item is already exist");
         }
     }
     public BO.Sale Read(int id)
     {
         try
         {
-            return _dal.Sale.Read(id).Convert();
+            return _dal.Sale.Read(id)?.Convert();
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("id is not exists");
         }
     }
     public BO.Sale? Read(Func<BO.Sale, bool> filter)
@@ -35,7 +35,7 @@ internal class SaleImplementation : ISale
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exists");
         }
     }
     public List<BO.Sale?> ReadAll(Func<BO.Sale, bool>? filter = null)
@@ -48,7 +48,7 @@ internal class SaleImplementation : ISale
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exists");
         }
     }
     public void Update(BO.Sale item)
@@ -59,7 +59,7 @@ internal class SaleImplementation : ISale
         }
         catch
         {
-            throw new Exception("");
+            throw new BLAccessException("id not exies!");
         }
     }
     public void Delete(int id)
@@ -70,7 +70,7 @@ internal class SaleImplementation : ISale
         }
         catch
         {
-            throw new Exception("");
+            throw new BLNotFoundException("items is not exists");
         }
     }
 }

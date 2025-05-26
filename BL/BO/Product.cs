@@ -1,5 +1,4 @@
 ﻿namespace BO;
-
 public class Product
 {
     public int id { get; init; }
@@ -21,6 +20,15 @@ public class Product
 
     public Product( string? name, double? price, int? amount, Category category)
     {
+        this.name = name;
+        this.price = price;
+        this.amount = amount;
+        this.category = category;
+        this.saleInProduct = new List<SaleInProduct>();
+    }
+    public Product(int id, string? name, double? price, int? amount, Category category)
+    {
+        this.id = id;
         this.name = name;
         this.price = price;
         this.amount = amount;

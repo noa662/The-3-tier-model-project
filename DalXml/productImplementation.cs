@@ -10,22 +10,26 @@ internal class productImplementation : IProduct
 
     public int Create(Product item)
     {
-        XElement productXml = XElement.Load(filePath);
-        int nextId = Config.ProductIdCounter;
-        var arr = productXml.Element("ArrayOfProduct");
-        if (arr == null)
+        if (item.amount > 0 && item.name != null && item.price > 0 && item.category != null)
         {
-            arr = new XElement("ArrayOfProduct");
-            productXml.Add(arr);
+            XElement productXml = XElement.Load(filePath);
+            int nextId = Config.ProductIdCounter;
+            var arr = productXml.Element("ArrayOfProduct");
+            if (arr == null)
+            {
+                arr = new XElement("ArrayOfProduct");
+                productXml.Add(arr);
+            }
+            arr.Add(new XElement("Product",
+                new XElement("Id", nextId),
+                new XElement("Name", item.name),
+                new XElement("Price", item.price),
+                new XElement("Amount", item.amount),
+                new XElement("Category", item.category)));
+            productXml.Save(filePath);
+            return nextId;
         }
-        arr.Add(new XElement("Product",
-            new XElement("Id", nextId),
-            new XElement("Name", item.name),
-            new XElement("Price", item.price),
-            new XElement("Amount", item.amount),
-            new XElement("Category", item.category)));
-        productXml.Save(filePath);
-        return nextId;
+        return 0;
     }
     public void Delete(int id)
     {
@@ -68,14 +72,31 @@ internal class productImplementation : IProduct
                     (Category)Enum.Parse(typeof(Category), p.Element("Category").Value))).ToList();
         return filter != null ? products.Where(filter).ToList() : products;
     }
+    //public void Update(Product item)
+    //{
+    //    XElement productXml = XElement.Load(filePath);
+    //    var element = productXml.Descendants("Id").FirstOrDefault(id => int.Parse(id.Value) == item.id);
+    //    if (element == null)
+    //        throw new KeyNotFoundException($"Product with Id {item.id} not found.");
+    //    XElement s = productXml.Descendants("Id").First(id => int.Parse(id.Value) == item.id).Parent;
+    //    s.Element("Price").SetValue(item.price);
+    //    s.Element("Name").SetValue(item.name);
+    //    s.Element("Amount").SetValue(item.amount);
+    //    s.Element("Category").SetValue(item.category);
+    //    productXml.Save(filePath);
+    //}
     public void Update(Product item)
     {
         XElement productXml = XElement.Load(filePath);
-        XElement s = productXml.Descendants("Id").First(id => int.Parse(id.Value) == item.id).Parent;
-        s.Element("Price").SetValue(item.price);
-        s.Element("Name").SetValue(item.name);
-        s.Element("Amount").SetValue(item.amount);
-        s.Element("Category").SetValue(item.category);
+        var element = productXml.Descendants("Product")
+                             .FirstOrDefault(p => (int)p.Element("Id") == item.id);
+        if (element == null)
+            throw new KeyNotFoundException($"Product with Id {item.id} not found.");
+        element.Element("Id").SetValue(item.id);
+        element.Element("Price").SetValue(item.price);
+        element.Element("Name").SetValue(item.name);
+        element.Element("Amount").SetValue(item.amount);
+        element.Element("Category").SetValue(item.category);
         productXml.Save(filePath);
     }
 }

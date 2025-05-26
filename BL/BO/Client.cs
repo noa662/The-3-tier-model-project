@@ -1,5 +1,4 @@
 ﻿namespace BO;
-
 public class Client
 {
     public int id { get; init; }

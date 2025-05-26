@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Option));
             btnProduct = new Button();
             btnSale = new Button();
             btnClient = new Button();
@@ -36,7 +37,7 @@
             // btnProduct
             // 
             btnProduct.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            btnProduct.Location = new Point(308, 179);
+            btnProduct.Location = new Point(390, 177);
             btnProduct.Name = "btnProduct";
             btnProduct.Size = new Size(180, 64);
             btnProduct.TabIndex = 1;
@@ -47,7 +48,7 @@
             // btnSale
             // 
             btnSale.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            btnSale.Location = new Point(113, 179);
+            btnSale.Location = new Point(193, 176);
             btnSale.Name = "btnSale";
             btnSale.Size = new Size(180, 64);
             btnSale.TabIndex = 2;
@@ -57,8 +58,10 @@
             // 
             // btnClient
             // 
+            btnClient.BackgroundImage = (Image)resources.GetObject("btnClient.BackgroundImage");
+            btnClient.Cursor = Cursors.SizeAll;
             btnClient.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            btnClient.Location = new Point(504, 179);
+            btnClient.Location = new Point(581, 177);
             btnClient.Name = "btnClient";
             btnClient.Size = new Size(180, 64);
             btnClient.TabIndex = 3;
@@ -70,6 +73,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(btnClient);
             Controls.Add(btnSale);

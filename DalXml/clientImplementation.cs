@@ -1,9 +1,7 @@
 ﻿using DalApi;
 using DO;
 using System.Xml.Serialization;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
+using System.Xml.Linq;
 
 namespace Dal;
 
@@ -29,14 +27,21 @@ internal class clientImplementation : IClient
 
     public void Delete(int id)
     {
-        using (StreamReader sr = new StreamReader(filePath))
+        try
         {
-            list = serializer.Deserialize(sr) as List<Client>;
-            list.Remove(list.FirstOrDefault(id => id == id));
+            using (StreamReader sr = new StreamReader(filePath))
+            {
+                list = serializer.Deserialize(sr) as List<Client>;
+                list.Remove(list.FirstOrDefault(item => item.id == id));
+            }
+            using (StreamWriter sw = new StreamWriter(filePath))
+            {
+                serializer.Serialize(sw, list);
+            }
         }
-        using (StreamWriter sw = new StreamWriter(filePath))
+        catch(Exception ex)
         {
-            serializer.Serialize(sw, list);
+            throw new Exception("הלקוח לא נמחק");
         }
     }
 
@@ -71,7 +76,15 @@ internal class clientImplementation : IClient
 
     public void Update(Client item)
     {
-        Delete(item.id);
-        Create(item);
+        XElement clientXML = XElement.Load(filePath);
+        var element = clientXML.Descendants("Client")
+                             .FirstOrDefault(sale => (int)sale.Element("id") == item.id);
+        if (element == null)
+            throw new KeyNotFoundException($"Sale with ID {item.id} not found.");
+        element.Element("id").SetValue(item.id);
+        element.Element("name").SetValue(item.name);
+        element.Element("adress").SetValue(item.adress);
+        element.Element("phone").SetValue(item.phone);
+        clientXML.Save(filePath);
     }
 }

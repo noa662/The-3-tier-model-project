@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\C-net_project-master\\C-net_project-master\\BlTest\\BlTest.csproj": {}
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj": {}
   },
   "projects": {
-    "M:\\C-net_project-master\\C-net_project-master\\BlTest\\BlTest.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\BlTest\\BlTest.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj",
         "projectName": "BlTest",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\BlTest\\BlTest.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\BlTest\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\BlTest.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BlTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\BL.csproj"
               },
-              "M:\\C-net_project-master\\C-net_project-master\\DalTest\\DalTest.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalTest\\DalTest.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj"
               }
             }
           }
@@ -68,25 +67,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\BL\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,11 +100,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\DalList.csproj"
               }
             }
           }
@@ -136,25 +134,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -197,25 +194,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -231,11 +227,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\C-net_project-master\\C-net_project-master\\Tools\\Tools.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\Tools\\Tools.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\Tools.csproj"
               }
             }
           }
@@ -265,25 +261,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C-net_project-master\\C-net_project-master\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\DalTest\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -299,17 +294,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalList\\DalList.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalList\\DalList.csproj"
               },
-              "M:\\C-net_project-master\\C-net_project-master\\DalXml\\DalXml.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalXml\\DalXml.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalXml\\DalXml.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalXml\\DalXml.csproj"
               },
-              "M:\\C-net_project-master\\C-net_project-master\\Tools\\Tools.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\Tools\\Tools.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\Tools.csproj"
               }
             }
           }
@@ -339,25 +334,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C-net_project-master\\C-net_project-master\\DalXml\\DalXml.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalXml\\DalXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\DalXml\\DalXml.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalXml\\DalXml.csproj",
         "projectName": "DalXml",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalXml\\DalXml.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\DalXml\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalXml\\DalXml.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalXml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -373,8 +367,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\C-net_project-master\\C-net_project-master\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -404,25 +398,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C-net_project-master\\C-net_project-master\\Tools\\Tools.csproj": {
+    "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C-net_project-master\\C-net_project-master\\Tools\\Tools.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "M:\\C-net_project-master\\C-net_project-master\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\sarakra\\.nuget\\packages\\",
-        "outputPath": "M:\\C-net_project-master\\C-net_project-master\\Tools\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\לימודים\\יד\\C# מתקדם\\פרויקט\\DotNet2025_7227_4264\\Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sarakra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -465,7 +458,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
